@@ -1,5 +1,6 @@
 function Card(props) {
     return (
+
         <div className="card--container" >
             <div className="img-contain" >
                 <img className="thumbnail-img" src={`../src/assets/${props.img}`} />
